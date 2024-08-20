@@ -1,5 +1,4 @@
-﻿
-const express = require('express');
+﻿const express = require('express');
 const session = require('express-session');
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
@@ -151,8 +150,3 @@ c.on('packet', function(nbytes, trunc) {
 
 
 });
-
-
-
-
-
